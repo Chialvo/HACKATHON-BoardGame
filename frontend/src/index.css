@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "FWC26";
+  src: url("./Fuentes/FWC26.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e8f1fb; /* celeste muy clarito, casi blanco */
+}
