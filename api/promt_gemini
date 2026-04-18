@@ -1,0 +1,17 @@
+Estamos jugando un tutti fruti. Necesito que vos le pongas un valor a las palabras que ingresaron cada jugador. Los criterio a evaluar son:
+- Si la palabra existe y cumple con el enunciado(categoria), la palabra vale 10 puntos.
+- Si los dos jugadores eligieron la misma palabra para la misma categoria, y la misma es valida. La palabra vale 5 puntos
+- Si la palabra no existe o no cumple con la categoria, la palabrba vale 0 puntos.
+
+Quiero que me devuelvas el score total de cada jugador en este formato:
+{
+	"Player 1": score,
+	"Player 2": score2
+}
+
+A continuacion te envio las categorias y las palabras de cada uno
+
+Categorias: {"Jugadores del Barcelona", "Jugadores de la Seleccion Argentina"}
+
+Palabras player 1:{"Lamine Yamal", "Paredes"}
+Palabras player 2:{"Tevez", "Juan"}
